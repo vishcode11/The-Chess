@@ -1,26 +1,24 @@
 # The Chess AI
 
 
-An advanced Chess game system where two AI agents play chess against each other using Autogen in a streamlit app. It is built with robust move validation and game state management.
+An advanced chess system built as a Streamlit app, where two AI agents compete against each other using Autogen, featuring strong move validation and comprehensive game state management.
 
 ## Features
 
 ### Multi-Agent Architecture
-- Player White: OpenAI-powered strategic decision maker
-- Player Black: OpenAI-powered tactical opponent
-- Board Proxy: Validation agent for move legality and game state
-
+-White Player: An OpenAI-driven agent focused on strategic planning 
+-Black Player: An OpenAI-driven opponent specializing in tactical play 
+-Board Proxy: A validation component that ensures move legality and maintains the game state
 ### Safety & Validation
-- Robust move verification system
-- Illegal move prevention
-- Real-time board state monitoring
-- Secure game progression control
-
+-Comprehensive move validation mechanism 
+-Prevention of illegal actions during gameplay 
+-Continuous monitoring of the board state in real time 
+-Controlled and secure progression of the game
 ### Strategic Gameplay
-- AI-powered position evaluation
-- Deep tactical analysis
-- Dynamic strategy adaptation
-- Complete chess ruleset implementation
+-AI-based evaluation of board positions 
+-In-depth tactical computation 
+-Adaptive strategies that evolve during play 
+-Full implementation of standard chess rules
 
 
 ### How to get Started?
@@ -28,8 +26,8 @@ An advanced Chess game system where two AI agents play chess against each other 
 1. Clone the GitHub repository
 
 ```bash
-git clone https://github.com/Shubhamsaboo/awesome-llm-apps.git
-cd ai_agent_tutorials/ai_chess_game
+git clone https://github.com/soukingfisher/the-chess.git
+cd chess.py
 ```
 2. Install the required dependencies:
 
